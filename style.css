@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main1{
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.2);
+    border-radius: 25px;
+    position: relative;
+}
+.tag{
+    position: absolute;
+    background: crimson;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: .3rem 1rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.2);
+}
+.img{
+    height: 200px;
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.img img{
+    width: 100%;
+}
+.contant{
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;    
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.contant h3{
+    
+}
+.contant h1{
+    margin: 1rem;
+}
+.contant p{
+    color: rgb(100, 100, 100);
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.fl{
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+}
+.fl img{
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+.fr{
+    display: flex;
+    padding-right: 25px;
+}
+.top-header{
+    background-color: rgb(143, 229, 255);
+}
+
+.Logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600px;
+
+}
+.manu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer{
+    background-color: rgb(143, 229, 255);
+    padding: 20px;
+    text-align: center;
+}
+.foot-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+.main-contant{
+    max-width: 500px;
+    margin: auto;
+}
+.image{
+    width: 100%;
+    
+}
